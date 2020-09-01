@@ -11,4 +11,5 @@ In the root derictory of project:
 2. http-server ./ -c-1 (last option to turn off cashing)
 3. sass ./src/css/style.sass  ./src/css/style.css (prepend it with --watch to update automatically) 
 
+Last piece of functionality has been unfinished yet.
 
