@@ -1,0 +1,50 @@
+{
+  "EUR": {
+    "symbol": "€",
+    "name": "Euro"
+  },
+  "RUB": {
+    "symbol": "₽",
+    "name": "Russian Ruble"
+  },
+  "USD": {
+    "symbol": "$",
+    "name": "US Dollar"
+  },
+  "CAD": {
+    "symbol": "Can$",
+    "name": "Canadian Dollar"
+  },
+  "CHF": {
+    "symbol": "CHF",
+    "name": "Swiss Franc"
+  },
+  "CZK": {
+    "symbol": "Kč",
+    "name": "Czech Republic Koruna"
+  },
+  "GBP": {
+    "symbol": "£",
+    "name": "British Pound Sterling"
+  },
+  "ILS": {
+    "symbol": "₪",
+    "name": "Israeli New Sheqel"
+  },
+  "JPY": {
+    "symbol": "¥",
+    "name": "Japanese Yen"
+  },
+  "NOK": {
+    "symbol": "Nkr",
+    "name": "Norwegian Krone"
+  },
+  "PLN": {
+    "symbol": "zł",
+    "name": "Polish Zloty"
+  },
+  "SEK": {
+    "symbol": "Skr",
+    "name": "Swedish Krona"
+  }
+}

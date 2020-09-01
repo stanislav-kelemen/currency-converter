@@ -1,0 +1,148 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: repeat url("../images/background.jpg");
+  background-size: 12em;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  display: grid;
+  grid-template-columns: auto 100% auto;
+  grid-template-rows: 1fr;
+}
+body .wrapper {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 50px 1px gray;
+  height: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.075em;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 2.2em;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+.title span {
+  color: #57a008;
+}
+
+#errorMessage {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainCurrencies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.otherCurrencies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #bcc3b1;
+}
+table td, table th {
+  padding: 5px;
+  border-left: 1px solid #bcc3b1;
+}
+table thead th {
+  border-top: 1px solid #bcc3b1;
+  white-space: nowrap;
+}
+table tbody tr:nth-of-type(2n + 1) {
+  background-color: #eaf3c3;
+}
+table tbody tr:nth-of-type(2n) {
+  background-color: #d5dea0;
+}
+table tbody td[data-base-currency]::before {
+  content: "✓";
+}
+
+input[name=amount] {
+  height: 35px;
+  width: 250px;
+  margin-top: 10px;
+  border: 1px solid #838383;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 300;
+  font-family: inherit;
+}
+input[name=amount]::-webkit-outer-spin-button, input[name=amount]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+input[name=amount]:focus {
+  outline: none;
+  color: #373737;
+  box-shadow: 0 0 2px 1px rgba(58, 102, 11, 0.5);
+}
+input[name=amount]:focus::placeholder {
+  opacity: 0;
+}
+
+form[name=currencies] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+form[name=currencies] button {
+  border: 1px solid #838383;
+  background-color: #e4e9d6;
+  vertical-align: center;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  margin: 5px;
+}
+form[name=currencies] button:focus {
+  outline: none;
+}
+form[name=currencies] button:hover {
+  box-shadow: 0 0 1px 1px rgba(58, 102, 11, 0.5);
+}
+form[name=currencies] button:active {
+  background-color: #d0d6c1;
+}
+
+/*# sourceMappingURL=style.css.map */

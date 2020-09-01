@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+    <link href="./src/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  <main class="wrapper">
+    <h1 class="title"><span>Privat</span>Exchange</h1>
+    <div id="errorMessage"></div>
+
+    <article class="converter" style="display: none">
+      <form>
+        <input type="text" name="amount" autocomplete="off" placeholder="10€ + 15$ - 100₽" autofocus>
+      </form>
+      <form name="currencies">
+
+      </form>
+    </article>
+
+    <section class="mainCurrencies" style="display: none">
+      <table id="mainTable">
+        <thead>
+          <tr>
+            <th colspan="7">Exchangable currency</th>
+          </tr>
+          <tr>
+            <th>Base</th>
+            <th>Currency</th>
+            <th>NBU</th>
+            <th>Buy</th>
+            <th>Sale</th>
+            <th>Buy (cashless)</th>
+            <th>Sale (cashless)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-base-currency></td>
+            <td title="Ukrainian Hryvnia" data-code="UAH" data-sign="₴">UAH (₴)</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="otherCurrencies" style="display: none">
+      <table id="additionalTable">
+        <thead>
+          <tr>
+            <th colspan="3">Non-exchangable currency</th>
+          </tr>
+          <tr>
+            <th>Base</th>
+            <th>Currency</th>
+            <th>NBU</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+    <script type="module" src="src/js/script.js"></script>
+  </body>
+</html>
