@@ -13,5 +13,5 @@ In the root derictory of project:
 
 Last piece of functionality will be finished ASAP.
 
-#### P. S. If you're insterested in more detailed info and the current state of the project, please, check the _extraReadme.md_ file.
+#### P. S. If you're insterested in more detailed info and the current state of the project, please, check the _extraReadme.md_ file (in Ukrainian).
 
