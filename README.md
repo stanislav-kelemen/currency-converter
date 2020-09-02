@@ -9,7 +9,7 @@ In the root derictory of project:
 
 1. npm install
 2. `http-server ./ -c-1` (last option to turn off cashing)
-3. (optional) to build CSS use `sass ./src/css/style.sass  ./src/css/style.css` (`sass --watch` to update automatically) 
+3. (optional) `sass ./src/css/style.sass  ./src/css/style.css` (`sass --watch` to update automatically) 
 
 Last piece of functionality has been unfinished yet.
 
