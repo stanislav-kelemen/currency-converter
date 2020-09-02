@@ -1,6 +1,6 @@
 # currency-converter
 
-Implementation of the currency converter-calculator using Privatbank API (it lags sometimes, probably update info, so try to make another request latter in case of failure)
+Implementation of the currency converter-calculator using Privatbank API (it lags sometimes, probably update info, so try to make another request later in case of failure)
 
 The application doesn't use any building tools, so to run it you need a simple http-server. I also used SASS which can be compiled by standart npm package. 
 Packages are shown in dependencies in package.json.
