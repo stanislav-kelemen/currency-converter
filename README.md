@@ -13,5 +13,5 @@ In the root derictory of project:
 
 Last piece of functionality has been unfinished yet.
 
-#### P. S. If you're insterested in more detailed info and the current state of the project, please, check the extraReadme.file 
+#### P. S. If you're insterested in more detailed info and the current state of the project, please, check the extraReadme file 
 
