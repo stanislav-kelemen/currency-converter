@@ -11,7 +11,7 @@ In the root derictory of project:
 2. `http-server ./ -c-1` (last option to turn off cashing)
 3. (optional) `sass ./src/css/style.sass  ./src/css/style.css` (`sass --watch` to update automatically) 
 
-Last piece of functionality has been unfinished yet.
+Last piece of functionality will be finished ASAP.
 
 #### P. S. If you're insterested in more detailed info and the current state of the project, please, check the _extraInfo.md_ file 
 
