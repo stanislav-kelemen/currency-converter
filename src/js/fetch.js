@@ -21,7 +21,6 @@ export default async function jsonHandlers() {
   return [mainCcies, otherCcies];
 }
 
-
 /* ---------------------- SUB HANDLERS ---------------------- */
 
 function mainCciesHandler(mainCciesArrays) {
